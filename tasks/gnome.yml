@@ -1,6 +1,6 @@
 - name: install python-psutil package
   package:
-    name: python-psutil
+    name: python3-psutil
 
 - name: copy waallpaper file
   copy: src=files/wallpaper.png dest=/home/darylkevin/.wallpaper.png owner=darylkevin group=darylkevin mode=600
