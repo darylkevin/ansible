@@ -5,4 +5,4 @@
       apt: update_cache=yes
       changed_when: False
   tasks:
-    - import_tasks: tasks/install.yml
+    - import_tasks: tasks/distro_packages.yml

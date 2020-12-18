@@ -1,0 +1,17 @@
+- name: distro packages | install packages
+  package:
+    state: latest
+    name:
+      - vim-nox
+      - htop
+      - thunderbird
+      - emacs
+      - gnome-tweaks
+      - neofetch
+- name: distro packages | remove packages
+  package:
+    state: absent
+    name:
+      - nano
+      - gnome-contacts
+      - gnome-calendar
