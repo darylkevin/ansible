@@ -1,0 +1,7 @@
+- name: clone doom emacs
+  git:
+    repo: 'https://github.com/hlissner/doom-emacs.git'
+    dest: /home/darylkevin/.emacs.d/
+    clone: yes
+    update: yes
+    depth: 1
