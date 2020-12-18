@@ -6,3 +6,4 @@
       changed_when: False
   tasks:
     - import_tasks: tasks/distro_packages.yml
+    - import_tasks: tasks/distro_clean.yml

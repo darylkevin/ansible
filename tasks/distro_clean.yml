@@ -1,0 +1,7 @@
+- name: distro clean | autoremove
+  apt:
+    autoremove: yes
+
+- name: distro clean | autoclean
+  apt:
+    autoclean: yes
