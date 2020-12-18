@@ -1,5 +1,8 @@
 - hosts: localhost
   become: true
+  pre_tasks:
+    - name: pre-run | update package cache
+      apt: update_cache=yes
+      changed_when: False
   tasks:
-    - name: Install vim-nox
-      apt: name=vim-nox
+    - import_tasks: tasks/install.yml

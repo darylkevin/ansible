@@ -1,0 +1,10 @@
+- name: distro packages |install packages
+  package:
+    state: latest
+    name:
+      - vim-nox
+      - htop
+      - thunderbird
+      - emacs
+      - gnome-tweaks
+      - neofetch
