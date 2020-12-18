@@ -7,7 +7,6 @@
       - thunderbird
       - emacs
       - gnome-tweaks
-      - neofetch
 - name: distro packages | remove packages
   package:
     state: absent
@@ -15,3 +14,4 @@
       - nano
       - gnome-contacts
       - gnome-calendar
+      - neofetch
