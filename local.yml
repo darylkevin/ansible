@@ -5,7 +5,8 @@
       apt: update_cache=yes
       changed_when: False
   tasks:
-    - import_tasks: tasks/distro_packages.yml
-    - import_tasks: tasks/distro_clean.yml
     - import_tasks: tasks/users.yml
     - import_tasks: tasks/cron.yml
+    - import_tasks: tasks/distro_packages.yml
+    - import_tasks: tasks/distro_clean.yml
+    - import_tasks: tasks/gnome.yml
