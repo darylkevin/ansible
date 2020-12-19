@@ -1,0 +1,8 @@
+- name: copy | personal doom emacs config.el
+  copy: src=files/doom.d/config.el dest=/home/darylkevin/.doom.d/config.el owner=darylkevin group=darylkevin mode=600
+
+- name: copy | personal doom emacs init.el
+  copy: src=files/doom.d/init.el dest=/home/darylkevin/.doom.d/init.el owner=darylkevin group=darylkevin mode=600
+
+- name: copy | personal doom emacs packages.el
+  copy: src=files/doom.d/packages.el dest=/home/darylkevin/.doom.d/packages.el owner=darylkevin group=darylkevin mode=600
