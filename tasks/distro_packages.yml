@@ -8,6 +8,8 @@
       - emacs
       - gnome-tweaks
       - dconf-editor
+      - fd-find
+      - ripgrep
 - name: distro packages | remove packages
   package:
     state: absent
