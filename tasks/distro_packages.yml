@@ -12,6 +12,7 @@
       - ripgrep
       - ledger
       - shellcheck
+      - pandoc
 - name: distro packages | remove packages
   package:
     state: absent
