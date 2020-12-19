@@ -1,4 +1,4 @@
 - name: shell | run doom sync to ensure changes are applied
   shell:
     cmd: /home/darylkevin/.emacs.d/bin/doom sync
-    become: no
+  become: no
