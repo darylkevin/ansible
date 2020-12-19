@@ -12,3 +12,4 @@
     - import_tasks: tasks/gnome.yml
     - import_tasks: tasks/doom.yml
     - import_tasks: tasks/doom_config.yml
+    - import_tasks: tasks/doom_sync.yml
