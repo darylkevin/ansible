@@ -7,7 +7,6 @@
       - thunderbird
       - emacs
       - gnome-tweaks
-      - dconf-editor
       - fd-find
       - ripgrep
       - ledger
@@ -20,4 +19,4 @@
       - nano
       - gnome-contacts
       - gnome-calendar
-      - neofetch
+      - geary
