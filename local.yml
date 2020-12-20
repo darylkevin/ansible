@@ -11,6 +11,6 @@
     - import_tasks: tasks/distro_clean.yml
     - import_tasks: tasks/gnome.yml
     - import_tasks: tasks/doom_clone.yml
-    - import_tasks: tasks/doom_install.yml
+#   - import_tasks: tasks/doom_install.yml
     - import_tasks: tasks/doom_config.yml
     - import_tasks: tasks/doom_sync.yml

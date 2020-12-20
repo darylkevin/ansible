@@ -20,3 +20,4 @@
       - gnome-contacts
       - gnome-calendar
       - geary
+      - dconf-editor
