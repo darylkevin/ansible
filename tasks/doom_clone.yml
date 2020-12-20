@@ -1,4 +1,5 @@
 - name: clone doom emacs
+  become_user: darylkevin
   git:
     repo: 'https://github.com/hlissner/doom-emacs.git'
     dest: /home/darylkevin/.emacs.d/
