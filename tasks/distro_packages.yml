@@ -12,6 +12,7 @@
       - ledger
       - shellcheck
       - pandoc
+      - gnome-clocks
 - name: distro packages | remove packages
   package:
     state: absent
