@@ -1,0 +1,4 @@
+- name: shell | install starship prompt
+  become_user: darylkevin
+  shell:
+    cmd: curl -fsSL https://starship.rs/install.sh | bash
