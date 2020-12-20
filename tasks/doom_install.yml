@@ -1,4 +1,3 @@
 - name: shell | run doom install
-  become_user: darylkevin
   shell:
     cmd: /home/darylkevin/.emacs.d/bin/doom install
