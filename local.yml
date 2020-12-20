@@ -14,3 +14,4 @@
 #   - import_tasks: tasks/doom_install.yml
     - import_tasks: tasks/doom_config.yml
     - import_tasks: tasks/doom_sync.yml
+    - import_tasks: tasks/fonts.yml

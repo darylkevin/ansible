@@ -1,0 +1,2 @@
+- name: copy | copy fonts 
+  copy: src=files/fonts/ dest=/home/darylkevin/.local/share/fonts/ owner=darylkevin group=darylkevin mode=600
